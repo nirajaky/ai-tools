@@ -13,3 +13,10 @@ docker run --name nexacorp-postgres \
 ## Verify
 
 `docker ps`
+
+### Because my local db username and password is postgres
+
+`psql -U postgres -d nexacorp_knowledge -f "C:\Users\NIRKUMA\Documents\poc\nexacorp-ai-backend\data\db\schema.sql"`
+
+`psql -U postgres -d nexacorp_knowledge -f "C:\Users\NIRKUMA\Documents\poc\nexacorp-ai-backend\data\db\data.sql"
+`
